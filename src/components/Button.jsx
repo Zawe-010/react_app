@@ -1,8 +1,12 @@
 function Button(props){
+    // function
+    const greet = (word)=>{
+        console.log(word) 
+    }
 
     return(
         <>
-        <button>{props.title}</button>
+        <button onClick={()=>greet("Good Evening")}>{props.title}</button>
         </>
     )
 }
