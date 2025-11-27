@@ -9,6 +9,8 @@ import StudentsTable from './components/StudentsTable';
 import StudentCard from './components/StudentCard';
 import Counter from './components/Counter';
 import ColorPicker from './components/ColorPicker';
+import Timer from './components/Timer';
+import OnlineStatus from './components/OnlineStatus';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -65,6 +67,10 @@ function App() {
       <Counter></Counter>
 
       <ColorPicker></ColorPicker>
+
+      <Timer></Timer>
+
+      <OnlineStatus></OnlineStatus>
     </div>
   );
 }
