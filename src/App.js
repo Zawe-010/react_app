@@ -11,6 +11,7 @@ import Counter from './components/Counter';
 import ColorPicker from './components/ColorPicker';
 import Timer from './components/Timer';
 import OnlineStatus from './components/OnlineStatus';
+import Form from './components/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -71,6 +72,8 @@ function App() {
       <Timer></Timer>
 
       <OnlineStatus></OnlineStatus>
+
+      <Form></Form>
     </div>
   );
 }
